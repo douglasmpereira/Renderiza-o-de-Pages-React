@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import App from './App';
@@ -15,7 +16,9 @@ import Calculadora from './componentes/calculadora';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Exercicos de React</h1>
+    <header>
+      Exercicios da Disciplina React
+    </header>
     <BrowserRouter>
       <Routes>
        <Route path='/' element = {<Home/>}/>

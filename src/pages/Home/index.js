@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return(
         <>
+            <h1>Menu Principal</h1>
             <Link to='home'><button>HOME</button></Link>
             <Link to='login'><button>LOGIN</button></Link>
             <Link to='contato'><button>CONTATOS</button></Link>  <br /> <br />

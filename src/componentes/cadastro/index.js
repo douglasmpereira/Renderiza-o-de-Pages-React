@@ -29,7 +29,7 @@ const Cadastro = () => {
 }
   return (
     <>
-        <h1>Formulario</h1><br /><br />
+        <h1>Formulario</h1>
         <label>
             Nome: <br />
             <input type="text" placeholder="Digite seu Nome" value={nome} onChange={(e) => setNome(e.target.value) } /> <br />
